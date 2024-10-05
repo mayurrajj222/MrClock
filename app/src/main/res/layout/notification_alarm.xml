@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- Alarm Notification Title -->
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MrClock Alarm"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <!-- Alarm Notification Text -->
+    <TextView
+        android:id="@+id/notificationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your alarm is ringing!"
+        android:textSize="16sp"
+        android:textColor="#757575" />
+
+</LinearLayout>
